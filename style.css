@@ -6,7 +6,7 @@
  }
 
  body {
-     background: #ff7a9a;
+     background: #3081ea;
  }
 
  .wrapper {
@@ -61,7 +61,7 @@
  }
 
  .hero-text .btn {
-     background: #ff5a5f;
+     background: #3081ea;
      color: #fff;
      padding: 12px 24px;
      border-radius: 8px;
@@ -122,7 +122,7 @@
 
  .git a:hover {
      transform: translateY(-4px) scale(1.03);
-     background: #ff5a5f;
+     background: #3081ea;
      color: #fff;
      box-shadow: 0 10px 22px rgba(255, 90, 95, 0.35);
  }
@@ -162,7 +162,7 @@
  }
 
  .project-card a {
-     color: #ff5a5f;
+     color: #3081ea;
      text-decoration: none;
      font-weight: bold;
  }

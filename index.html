@@ -2,161 +2,371 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sanika Yadav</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanika Yadav | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="icon" type="image/png" href="favicon.png">
 </head>
 
 <body>
 
-    <div class="wrapper">
-        <header>
-            <a href="https://www.linkedin.com/in/sanika-yadav-993638291/">
-                <h1>contact</h1>
-            </a>
-            <nav>
-                <a href="#About">About</a>
-                <a href="#Projects">Projects</a>
-                <a href="#Skills">Skills</a>
-            </nav>
-        </header>
+    <!-- Navbar -->
 
-        <section class="hero">
-            <div class="hero-text">
-                <h2>Hi, I am Sanika Yadav,<br />Aspiring Software Developer</h2><br>
-                <a href="https://drive.google.com/file/d/1pJjFTrw0KTL_-0b40UaT6uAD1iDQvjJw/view?usp=sharing" class="btn"
-                    download>View Resume</a>
-            </div>
-            <div class="hero-img">
-                <img src="profile.png" alt="Profile" />
-            </div>
-        </section>
-        <div class="git">
-            <a href="https://github.com/sanikayadav2024" target="_blank">
-                <i class="fab fa-github"></i>
-                <span>GitHub</span>
-            </a>
+    <header>
+        <div class="logo">Sanika Yadav</div>
 
-            <a href="https://leetcode.com/u/sanikayadav1201/" target="_blank">
-                <i class="fa-solid fa-code"></i>
-                <span>LeetCode</span>
-            </a>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-            <a href="https://www.linkedin.com/in/sanika-yadav-993638291/" target="_blank">
-                <i class="fab fa-linkedin"></i>
-                <span>LinkedIn</span>
-            </a>
+    <!-- Hero -->
 
-            <a href="mailto:sanikapyadav@gmail.com">
-                <i class="fa-solid fa-envelope"></i>
-                <span>Email</span>
-            </a>
-        </div>
+    <section class="hero">
 
-        <section id="About" class="section about">
-            <h3>About Me</h3>
-            <p>
-                I’m Sanika Yadav, an aspiring Software Developer with a strong interest in
-                building scalable, user-friendly applications and solving real-world problems through code. I enjoy
-                working across the full development lifecycle-from designing clean interfaces to implementing efficient
-                backend logic.
-            </p><br>
-            <p>
-                Currently, I’m focused on sharpening my skills in modern web technologies, data structures, and system
-                design while continuously learning new tools and frameworks to stay adaptable in the fast-evolving tech
-                landscape.
+        <div class="hero-text">
+
+            <p class="tag">👋 Hello, I'm</p>
+
+            <h1>Sanika Yadav</h1>
+
+            <h2>I am a <span class="typing"></span></h2>
+
+            <p class="hero-desc">
+                Passionate about Full Stack Development, Open Source,
+                Java, Spring Boot and building impactful applications.
             </p>
 
-        </section>
+            <div class="hero-buttons">
+                <a href="https://drive.google.com/file/d/1mu8TmS5S-J_2TEpaikMzKWtUFeEG8H_H/view?usp=sharing"
+                    target="_blank" class="btn">
+                    View Resume
+                </a>
 
-        <section id="Projects" class="section">
-            <h3>Projects</h3>
-            <div class="projects">
-                <div class="project-card">
-                    <h4>QuickShare : File sharing system</h4>
-                    <p>Developed a real time filesharing system to ease the sharing of documents, files and other
-                        resources
-                        easily with just a scan of QR code. The Application is made available to install and use for
-                        anyone on
-                        https://github.com/sanikayadav2024/file-transfer-system/tags<br><br>
-                    <h4>technologies:</h4>
-                    <ul>
-                        <li>Java</li>
-                        <li>SpringBoot</li>
-                    </ul>
-                    </p><br>
-                    <a href="https://github.com/sanikayadav2024/file-transfer-system">View Project</a>
-                </div>
-                <div class="project-card">
-                    <h4>Notice Hub(2025)</h4>
-                    <p>A comprehensive website for students to connect easily
-                        with college notices.-Storage and managing notices is
-                        done with SQL database. Deployment of website is on
-                        localhost with XAMMP server. Languages used are HTML,
-                        CSS, JS and PHP<br><br>
-                    <h4>technologies:</h4>
-                    <ul>
-                        <li>Frontend : HTML, CSS, JS</li>
-                        <li>Backend : PHP</li>
-                        <li>Database : XAMMP, MySQL</li>
-                    </ul>
-                    </p><br>
-                    <a href="https://github.com/sanikayadav2024/noticehub">View Project</a>
-                </div>
-
-                <div class="project-card">
-                    <h4>Interview Saarthi(2025)</h4>
-                    <p>This is an advanced and interactive AI-powered mock
-                        interview platform designed to help job seekers practice
-                        and improve their interview skills. Built with Next.js,
-                        Tailwind CSS, and Gemini Api,PostgreSQL, Drizzle ORM, it
-                        provides users with a good interview experience to
-                        enhance their chances of landing their dream job.<br><br>
-                    <h4>technologies:</h4>
-                    <ul>
-                        <li>Frontend : Next.js , Tailwind CSS</li>
-                        <li>Backend : Node.js , Gemini API</li>
-                        <li>Database : Drizzle ORM, PostgreSQL</li>
-                        <li>Authenticatin : Clerk</li>
-                        <li>Deployment : Vercel</li>
-                    </ul>
-                    </p><br>
-                    <a href="https://interview-sarthi-ai.vercel.app/">View Project</a>
-                </div>
+                <a href="projects.html" class="btn-outline">
+                    View Projects
+                </a>
             </div>
-        </section>
 
-        <section id="Skills" class="section skills">
-            <h3>Skills</h3>
-            <ul>
-                <li>JAVA</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>SQL</li>
-                <li>PHP</li>
-                <li>Node.js</li>
-                <li>Python</li>
-            </ul>
-        </section>
+        </div>
 
+        <div class="hero-image">
+            <img src="profile.png" alt="Sanika Yadav">
+        </div>
 
+    </section>
 
-        <section id="contact" class="section">
+    <!-- Social Links -->
 
+    <section class="social-links">
 
-        </section>
+        <a href="https://github.com/sanikayadav2024" target="_blank">
+            <i class="fab fa-github"></i>
+            GitHub
+        </a>
 
-        <footer>
-            <h3>Contact</h3>
-            <p>Email: sanikapyadav@email.com</p>
-            <p>LinkedIn: https://www.linkedin.com/in/sanika-yadav-993638291/</p>
-        </footer>
+        <a href="https://leetcode.com/u/sanikayadav1201/" target="_blank">
+            <i class="fas fa-code"></i>
+            LeetCode
+        </a>
+
+        <a href="https://www.linkedin.com/in/sanika-yadav-993638291/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+            LinkedIn
+        </a>
+
+        <a href="mailto:sanikapyadav@gmail.com">
+            <i class="fas fa-envelope"></i>
+            Email
+        </a>
+
+    </section>
+
+    <!-- Stats -->
+
+    <section class="stats">
+
+        <div class="stat-card">
+            <h2>10+</h2>
+            <p>Contributions</p>
+        </div>
+        <div class="stat-card">
+            <h2>1515+</h2>
+            <p>Leetcode Contest Rank</p>
+        </div>
+        <div class="stat-card">
+            <h2>100+</h2>
+            <p>CodeChef Streak</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>731</h2>
+            <p>GSSoC Rank</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>2026</h2>
+            <p>Gemini Ambassador</p>
+        </div>
+
+    </section>
+    <!-- About -->
+
+    <section id="about" class="section">
+
+        <h2>About Me</h2>
+
+        <p>
+            Motivated Computer Science student (graduating 2027) with strong proficiency in Java, seeking an internship
+            to
+            contribute to large-scale system and full software development lifecycle. Experienced in developing frontend
+            and
+            backend systems, Web applications and ML application.
+        </p>
+
+    </section>
+    <section class="contributions-mini">
+    <h2>Open Source Contributions</h2>
+
+    <div class="repo-list">
+
+        <a href="https://github.com/magic-peach/reframe/pull/801" target="_blank" class="repo-item">
+            Reframe
+        </a>
+
+        <a href="https://github.com/komalharshita/DevPath/pull/776#event-26677292241" target="_blank" class="repo-item">
+            DevPath
+        </a>
+
+        <a href="https://github.com/neeru24/Agri-Vision/pull/645#event-26532763428" target="_blank" class="repo-item">
+            Agri-Vision
+        </a>
+
+        <a href="https://github.com/chthonn/PiperChat01/pull/213#event-26703022927" target="_blank" class="repo-item">
+            PiperChat01
+        </a>
+
+        <a href="https://github.com/hitesh-kumar123/Travel-Plans-/issues/321#event-26345149642" target="_blank" class="repo-item">
+            Travel-Plans
+        </a>
+
     </div>
+</section>
+    <!-- Skills -->
 
+    <section id="skills" class="section">
+
+        <h2>Skills</h2>
+
+        <div class="skills-grid">
+
+            <span>Java</span>
+            <span>Spring Boot</span>
+            <span>Hibernate</span>
+            <span>SQL</span>
+            <span>MySQL</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Node.js</span>
+            <span>Python</span>
+            <span>Git</span>
+            <span>GitHub</span>
+
+        </div>
+
+    </section>
+    <!-- Projects -->
+
+    <section id="projects" class="section">
+
+        <h2>Projects</h2>
+
+        <div class="projects">
+
+            <div class="project-card">
+                <h3>QuickShare</h3>
+                <p>QR-based real-time file sharing system built using Spring Boot.</p>
+                <a href="https://github.com/sanikayadav2024/file-transfer-system">
+                    View Project
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>Notice Hub</h3>
+                <p>College notice management platform using PHP and MySQL.</p>
+                <a href="https://github.com/sanikayadav2024/noticehub">
+                    View Project
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>IoT Security System</h3>
+                <p>DNN-based attack detection system for IoT devices.</p>
+                <a href="https://github.com/sanikayadav2024/iot_security_ui">
+                    View Project
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Achievements -->
+
+    <section class="achievements-section">
+
+        <h2>Achievements</h2>
+
+        <div class="achievement-container">
+
+            <div class="achievement-track">
+
+                <!-- Set 1 -->
+
+                <div class="achievement-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>100 Days Coding Streak</h3>
+                    <p>Maintained consistency on CodeChef.</p>
+                </div>
+
+                <div class="achievement-card">
+                    <i class="fas fa-star"></i>
+                    <h3>Gemini Student Ambassador</h3>
+                    <p>Selected by Google for 2026.</p>
+                </div>
+
+                <div class="achievement-card">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>Open Source Contributor</h3>
+                    <p>Contributed to multiple repositories.</p>
+                </div>
+
+                <div class="achievement-card">
+                    <i class="fas fa-medal"></i>
+                    <h3>GSSoC Contributor</h3>
+                    <p>Global Rank 731.</p>
+                </div>
+
+                <!-- Duplicate for Infinite Scroll -->
+
+                <div class="achievement-card">
+                    <i class="fas fa-trophy"></i>
+                    <h3>100 Days Coding Streak</h3>
+                    <p>Maintained consistency on CodeChef.</p>
+                </div>
+
+                <div class="achievement-card">
+                    <i class="fas fa-star"></i>
+                    <h3>Gemini Student Ambassador</h3>
+                    <p>Selected by Google for 2026.</p>
+                </div>
+
+                <div class="achievement-card">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>Open Source Contributor</h3>
+                    <p>Contributed to multiple repositories.</p>
+                </div>
+
+                <div class="achievement-card">
+                    <i class="fas fa-medal"></i>
+                    <h3>GSSoC Contributor</h3>
+                    <p>Global Rank 731.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Footer -->
+
+    <footer id="contact">
+
+        <h2>Let's Connect</h2>
+
+        <p>Email: sanikapyadav@gmail.com</p>
+
+        <div class="footer-social">
+
+            <a href="https://github.com/sanikayadav2024">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/sanika-yadav-993638291/">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 Sanika Yadav. Made with love🩷
+        </p>
+
+    </footer>
+    <script>
+        const words = [
+            "Student",
+            "Tech Enthusiast",
+            "Application Developer",
+            "Open Source Contributor",
+            "Software Developer"
+        ];
+
+        let wordIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        const typingElement = document.querySelector(".typing");
+
+        function typeEffect() {
+
+            const currentWord = words[wordIndex];
+
+            if (!isDeleting) {
+                typingElement.textContent =
+                    currentWord.substring(0, charIndex + 1);
+
+                charIndex++;
+
+                if (charIndex === currentWord.length) {
+                    isDeleting = true;
+                    setTimeout(typeEffect, 1500);
+                    return;
+                }
+            } else {
+
+                typingElement.textContent =
+                    currentWord.substring(0, charIndex - 1);
+
+                charIndex--;
+
+                if (charIndex === 0) {
+                    isDeleting = false;
+                    wordIndex = (wordIndex + 1) % words.length;
+                }
+            }
+
+            setTimeout(typeEffect, isDeleting ? 50 : 100);
+        }
+
+        typeEffect();
+    </script>
 </body>
 
 </html>

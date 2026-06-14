@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f8fafc;
+    color:#1e293b;
+}
+
+header{
+    position:sticky;
+    top:0;
+    z-index:100;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 8%;
+
+    background:white;
+
+    border-bottom:1px solid #e2e8f0;
+}
+
+.logo{
+    text-decoration:none;
+    font-size:1.5rem;
+    font-weight:700;
+    color:#2563eb;
+}
+
+nav{
+    display:flex;
+    gap:30px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#334155;
+    font-weight:500;
+}
+
+.active{
+    color:#2563eb;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 8% 60px;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:15px;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    color:#64748b;
+}
+
+.projects-container{
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(350px,1fr));
+
+    gap:30px;
+
+    padding:50px 8% 100px;
+}
+
+.project-card{
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:
+    0 5px 20px rgba(0,0,0,0.05);
+
+    transition:.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-10px);
+
+    box-shadow:
+    0 20px 40px rgba(0,0,0,0.1);
+}
+
+.project-icon{
+    width:70px;
+    height:70px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#eff6ff;
+    color:#2563eb;
+
+    border-radius:16px;
+
+    font-size:1.8rem;
+
+    margin-bottom:20px;
+}
+
+.project-card h2{
+    margin-bottom:15px;
+}
+
+.project-card p{
+    color:#64748b;
+    margin-bottom:20px;
+}
+
+.tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:25px;
+}
+
+.tags span{
+    background:#eff6ff;
+    color:#2563eb;
+
+    padding:8px 14px;
+
+    border-radius:30px;
+
+    font-size:.85rem;
+}
+
+.buttons a{
+    display:inline-block;
+
+    text-decoration:none;
+
+    background:#2563eb;
+    color:white;
+
+    padding:12px 20px;
+
+    border-radius:10px;
+
+    transition:.3s;
+}
+
+.buttons a:hover{
+    background:#1d4ed8;
+}
+
+@media(max-width:768px){
+
+    .hero h1{
+        font-size:2.5rem;
+    }
+
+    nav{
+        gap:15px;
+    }
+
+    .projects-container{
+        grid-template-columns:1fr;
+    }
+}
